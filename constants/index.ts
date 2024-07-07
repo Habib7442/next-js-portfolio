@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     img: "/quizllo/quizllo-1.png",
     singleImg: ["/quizllo/quizllo-1.png", "/quizllo/quizllo-2.png"],
-    title: "Promptwar",
+    title: "Quizllo",
     technologies: [
       "/tech/next.jpeg",
       "/tech/firebase.svg",

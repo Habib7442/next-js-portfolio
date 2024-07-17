@@ -140,6 +140,19 @@ export const projects = [
   },
 ];
 
+export const landingPages = [
+  {
+    id: 1,
+    img: "/landingPages/shoes.png",
+    link: "https://shoehub.vercel.app/",
+  },
+  {
+    id: 2,
+    img: "/landingPages/medicines.png",
+    link: "https://mydemoservices.vercel.app/",
+  },
+];
+
 export const technologies = [
   {
     id: 1,

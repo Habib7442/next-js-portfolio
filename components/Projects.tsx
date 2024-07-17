@@ -1,4 +1,5 @@
 import { Tabs } from "./ui/tabs";
+import LandingPages from "./LandingPages";
 import WebDevelopment from "./Web-Dev";
 
 const Projects = () => {
@@ -7,26 +8,17 @@ const Projects = () => {
       title: "Web Development",
       value: "webdev",
       content: (
-        <div className="w-full mx-auto rounded-2xl">
+        <div className="w-full mx-auto rounded-2xl ">
           <WebDevelopment />
         </div>
       ),
     },
     {
-      title: "App Development",
-      value: "appdev",
+      title: "Landing Pages Design",
+      value: "landingpages",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          {/* <p>App development</p> */}
-        </div>
-      ),
-    },
-    {
-      title: "AI",
-      value: "ai",
-      content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          {/* <p>Artificial Intellegence</p> */}
+        <div className="w-full mx-auto rounded-2xl ">
+          <LandingPages />
         </div>
       ),
     },

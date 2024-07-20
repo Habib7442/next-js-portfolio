@@ -151,6 +151,11 @@ export const landingPages = [
     img: "/landingPages/medicines.png",
     link: "https://mydemoservices.vercel.app/",
   },
+  {
+    id: 3,
+    img: "/landingPages/kidjig.png",
+    link: "https://kidjig-landing.vercel.app/",
+  },
 ];
 
 export const technologies = [

@@ -95,7 +95,7 @@ export const projects = [
     ],
     github: "https://github.com/Habib7442/funky-frame",
     liveUrl: "https://funky-frame.vercel.app/",
-    link: "",
+    link: "https://funky-frame.vercel.app/",
   },
   {
     img: "/blog/blog.png",
